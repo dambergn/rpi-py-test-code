@@ -27,3 +27,14 @@ startx (starts the GUI from CLI)
 sudo apt-get install rpi-update
 sudo rpi-update
 ```
+
+### LED
+
+### Input
+
+### Servo
+
+### Stepper
+- https://www.youtube.com/watch?v=LUbhPKBL_IU&t=1203s
+- https://www.youtube.com/watch?v=Dc16mKFA7Fo&t=450s
+- https://www.youtube.com/watch?v=bkqoKWP4Oy4
