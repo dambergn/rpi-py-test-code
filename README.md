@@ -1,6 +1,14 @@
 # rpi-py-test-code
 Raspberry Pi Python Test Code
-test
+### To test python
+```
+./python1_test.py
+```
+
+### to test python3
+```
+./python3_test.py
+```
 
 ### Common commands
 ```
