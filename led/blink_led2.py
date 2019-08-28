@@ -11,7 +11,7 @@ GPIO.setmode(GPIO.BOARD)
 # GPIO.setmode(GPIO.BCM)
 
 # Pin designators
-green_led=11
+green_led = 11
 
 # Pin configuration
 GPIO.setup(green_led, GPIO.OUT)
@@ -33,5 +33,5 @@ try:
         time.sleep(1)
 
 except KeyboardInterrupt:
-	print ("stopping program")
-	GPIO.cleanup()
+    print("stopping program")
+    GPIO.cleanup()
