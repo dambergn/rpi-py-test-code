@@ -18,6 +18,8 @@ GPIO.output(DIR, CW)
 step_count = SPR
 delay = .0208
 
+print("Forward")
+
 for x in range(step_count):
     GPIO.output(STEP, GPIO.HIGH)
     sleep(delay)
@@ -27,10 +29,13 @@ for x in range(step_count):
 sleep(.5)
 GPIO.output(DIR, CCW)
 
+print("Reverse")
+
 for x in range(step_count):
     GPIO.output(STEP, GPIO.HIGH)
     sleep(delay)
     GPIO.output(STEP, GPIO.LOW)
     sleep(delay)
-    
+
+print("Done")
 GPIO.cleanup()
