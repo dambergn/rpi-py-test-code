@@ -32,3 +32,5 @@ for x in range(step_count):
     sleep(delay)
     GPIO.output(STEP, GPIO.LOW)
     sleep(delay)
+    
+GPIO.cleanup()
